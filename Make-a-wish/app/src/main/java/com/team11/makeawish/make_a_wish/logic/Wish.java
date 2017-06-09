@@ -2,10 +2,6 @@ package com.team11.makeawish.make_a_wish.logic;
 
 import java.util.List;
 
-/**
- * Created by jayant on 09/06/2017.
- */
-
 public class Wish {
     public String getTarget() {
         return target;
