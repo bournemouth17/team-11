@@ -11,33 +11,92 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="name:"
-        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="username:"
+        tools:layout_editor_absoluteX="30dp"
         tools:layout_editor_absoluteY="36dp" />
 
     <EditText
-        android:id="@+id/nameTextBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/addressTextField"
+        android:layout_width="323dp"
+        android:layout_height="34dp"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="323dp"
+        android:layout_height="31dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <EditText
+        android:id="@+id/nameTextField"
+        android:layout_width="323dp"
+        android:layout_height="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="325dp"
+        android:layout_height="34dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="30dp"
         tools:layout_editor_absoluteY="53dp" />
 
     <EditText
         android:id="@+id/passwordTextField"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="323dp"
+        android:layout_height="32dp"
         android:ems="10"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="203dp" />
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="118dp" />
 
     <TextView
         android:id="@+id/passwordLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="password:"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="184dp" />
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <TextView
+        android:id="@+id/skillsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="skills:"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="address/town:"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="214dp"
+        android:layout_height="50dp"
+        android:text="Register"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="394dp" />
 
 </android.support.constraint.ConstraintLayout>
