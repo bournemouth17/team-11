@@ -31,7 +31,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        android:background="@drawable/makeAWishLogoImage">
+        android:background="@drawable/make_a_wish_logo_1">
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
