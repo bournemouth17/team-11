@@ -69,8 +69,8 @@ public  class DatabaseConnection extends AppCompatActivity {
         }
     }
 
-    public void deleteCustomer(Customer customer) {
-        if(customer.getId() <= 0) {
+    public void deleteVolunteer(Volunteer volunteer) {
+        if(Volunteer.getId() <= 0) {
             return;
         }
         Statement statement;
