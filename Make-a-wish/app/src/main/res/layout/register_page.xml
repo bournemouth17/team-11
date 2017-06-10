@@ -15,7 +15,7 @@
         tools:layout_editor_absoluteY="166dp" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/usernameLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="username:"
@@ -23,16 +23,25 @@
         tools:layout_editor_absoluteY="36dp" />
 
     <EditText
-        android:id="@+id/addressTextField"
+        android:id="@+id/skillsComboBox"
         android:layout_width="323dp"
         android:layout_height="34dp"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="323dp"
+        android:layout_height="34dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="31dp"
         tools:layout_editor_absoluteY="313dp" />
 
     <EditText
-        android:id="@+id/editText9"
+        android:id="@+id/addressTextBox"
         android:layout_width="323dp"
         android:layout_height="31dp"
         android:ems="10"
@@ -46,11 +55,11 @@
         android:layout_height="32dp"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteX="31dp"
         tools:layout_editor_absoluteY="183dp" />
 
     <EditText
-        android:id="@+id/editText7"
+        android:id="@+id/usernameTextField"
         android:layout_width="325dp"
         android:layout_height="34dp"
         android:ems="10"
@@ -81,10 +90,18 @@
         android:layout_height="wrap_content"
         android:text="skills:"
         tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <TextView
+        android:id="@+id/contactNumberLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="contact number:"
+        tools:layout_editor_absoluteX="30dp"
         tools:layout_editor_absoluteY="296dp" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/addressLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="address/town:"
@@ -97,6 +114,6 @@
         android:layout_height="50dp"
         android:text="Register"
         tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="394dp" />
+        tools:layout_editor_absoluteY="434dp" />
 
 </android.support.constraint.ConstraintLayout>
