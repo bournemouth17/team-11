@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:text="name:"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="187dp" />
+        tools:layout_editor_absoluteY="237dp" />
 
     <TextView
         android:id="@+id/usernameLabel"
@@ -21,61 +21,61 @@
         android:layout_height="wrap_content"
         android:text="username:"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="62dp" />
+        tools:layout_editor_absoluteY="126dp" />
 
     <EditText
         android:id="@+id/skillsComboBox"
-        android:layout_width="292dp"
+        android:layout_width="360dp"
         android:layout_height="30dp"
         android:ems="10"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="405dp" />
+        tools:layout_editor_absoluteY="421dp" />
 
     <EditText
         android:id="@+id/editText11"
-        android:layout_width="291dp"
-        android:layout_height="32dp"
+        android:layout_width="360dp"
+        android:layout_height="30dp"
         android:ems="10"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="356dp" />
+        tools:layout_editor_absoluteY="365dp" />
 
     <EditText
         android:id="@+id/addressTextBox"
-        android:layout_width="292dp"
-        android:layout_height="33dp"
+        android:layout_width="360dp"
+        android:layout_height="30dp"
         android:ems="10"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="299dp" />
+        tools:layout_editor_absoluteY="308dp" />
 
     <EditText
         android:id="@+id/nameTextField"
-        android:layout_width="292dp"
-        android:layout_height="34dp"
+        android:layout_width="360dp"
+        android:layout_height="30dp"
         android:ems="10"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="204dp" />
+        tools:layout_editor_absoluteY="253dp" />
 
     <EditText
         android:id="@+id/usernameTextField"
-        android:layout_width="239dp"
-        android:layout_height="26dp"
+        android:layout_width="360dp"
+        android:layout_height="30dp"
         android:ems="10"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="79dp" />
+        tools:layout_editor_absoluteY="143dp" />
 
     <EditText
         android:id="@+id/passwordTextField"
-        android:layout_width="288dp"
-        android:layout_height="34dp"
+        android:layout_width="360dp"
+        android:layout_height="30dp"
         android:ems="10"
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="139dp" />
+        tools:layout_editor_absoluteY="199dp" />
 
     <TextView
         android:id="@+id/passwordLabel"
@@ -83,7 +83,7 @@
         android:layout_height="wrap_content"
         android:text="password:"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="122dp" />
+        tools:layout_editor_absoluteY="182dp" />
 
     <TextView
         android:id="@+id/skillsLabel"
@@ -91,7 +91,7 @@
         android:layout_height="wrap_content"
         android:text="skills:"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="388dp" />
+        tools:layout_editor_absoluteY="404dp" />
 
     <TextView
         android:id="@+id/contactNumberLabel"
@@ -99,7 +99,7 @@
         android:layout_height="wrap_content"
         android:text="contact number:"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="339dp" />
+        tools:layout_editor_absoluteY="348dp" />
 
     <TextView
         android:id="@+id/addressLabel"
@@ -107,16 +107,16 @@
         android:layout_height="wrap_content"
         android:text="address/town:"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="257dp" />
+        tools:layout_editor_absoluteY="291dp" />
 
     <Button
         android:id="@+id/registerButton"
-        android:layout_width="128dp"
-        android:layout_height="42dp"
+        android:layout_width="130dp"
+        android:layout_height="34dp"
         android:text="Register"
-        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteX="162dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="34dp" />
+        android:layout_marginBottom="42dp" />
 
 
 

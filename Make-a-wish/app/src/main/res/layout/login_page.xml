@@ -16,7 +16,7 @@
         android:ems="10"
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="226dp" />
+        tools:layout_editor_absoluteY="254dp" />
 
     <TextView
         android:id="@+id/passwordLabel"
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:text="password:"
         tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="209dp" />
+        tools:layout_editor_absoluteY="228dp" />
 
     <TextView
         android:id="@+id/usernameLabel"
@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:text="username:"
         tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="128dp" />
+        tools:layout_editor_absoluteY="148dp" />
 
     <EditText
         android:id="@+id/usernameTextField"
@@ -40,7 +40,7 @@
         android:layout_height="33dp"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteY="145dp"
+        tools:layout_editor_absoluteY="173dp"
         android:layout_marginRight="46dp"
         app:layout_constraintRight_toRightOf="parent" />
 
@@ -49,7 +49,7 @@
         android:layout_width="296dp"
         android:layout_height="44dp"
         android:text="Login"
-        tools:layout_editor_absoluteY="299dp"
+        tools:layout_editor_absoluteY="323dp"
         android:layout_marginLeft="44dp"
         app:layout_constraintLeft_toLeftOf="parent" />
 
