@@ -29,7 +29,7 @@ public class Volunteer {
         this.contact = contact;
     }
 
-    public List<String> getSkills() {
+    /*public List<String> getSkills() {
         return skills;
     }
 
@@ -38,11 +38,11 @@ public class Volunteer {
     }
 
     List<String> skills;
-
-    public Volunteer(String location, String name, String contact, List<String> skills) {
+    */
+    public Volunteer(String location, String name, String contact) {
         this.location = location;
         this.name = name;
         this.contact = contact;
-        this.skills = skills;
+        //this.skills = skills;
     }
 }
