@@ -48,6 +48,21 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        PlainText usernametextfield = (PlainText) findViewById(R.id.usernameTextField);
+        usernametextfield.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
+        PlainText passwordtextfield = (PlainText) findViewById(R.id.passwordTextField);
+        passwordtextfield.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
 
 
 
