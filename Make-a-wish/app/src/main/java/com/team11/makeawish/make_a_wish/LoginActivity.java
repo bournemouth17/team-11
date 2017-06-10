@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 /**
  * Created by kelennaamadi on 10/06/2017.
@@ -24,7 +26,7 @@ public class LoginActivity extends AppCompatActivity {
         });
 
 
-        Button facebookButton = (Button) findViewById(R.id.FacebookButton);
+        Button facebookButton = (Button) findViewById(R.id.facebookButton);
         facebookButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -48,7 +50,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-        PlainText usernametextfield = (PlainText) findViewById(R.id.usernameTextField);
+        EditText usernametextfield = (EditText) findViewById(R.id.usernameTextField);
         usernametextfield.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -56,7 +58,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-        PlainText passwordtextfield = (PlainText) findViewById(R.id.passwordTextField);
+        EditText passwordtextfield = (EditText) findViewById(R.id.passwordTextField);
         passwordtextfield.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
