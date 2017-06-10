@@ -3,19 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Make-a-wish.iml" filepath="$PROJECT_DIR$/Make-a-wish.iml" />
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/Make-a-wish.iml" filepath="$PROJECT_DIR$/Make-a-wish.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-<<<<<<< HEAD
-=======
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/mysql-connector-java-5.0.8-bin/mysql-connector-java-5.0.8-bin.iml" filepath="$PROJECT_DIR$/mysql-connector-java-5.0.8-bin/mysql-connector-java-5.0.8-bin.iml" />
->>>>>>> 24fcf06fc58bf5bb00298406b4494a77ab3d519a
-=======
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mysql-connector-java-5.0.8-bin/mysql-connector-java-5.0.8-bin.iml" filepath="$PROJECT_DIR$/mysql-connector-java-5.0.8-bin/mysql-connector-java-5.0.8-bin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mysql-connector-java-5.0.8-bin/mysql-connector-java-5.0.8-bin.iml" filepath="$PROJECT_DIR$/mysql-connector-java-5.0.8-bin/mysql-connector-java-5.0.8-bin.iml" />
->>>>>>> 6dd3611b8bd15cab2a719166137e5bbf834d9216
     </modules>
   </component>
 </project>
